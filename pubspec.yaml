@@ -1,0 +1,40 @@
+name: pokefex
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flex_color_scheme: ^7.0.1
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.0
+  flutter_svg: ^2.0.4
+  http: ^0.13.5
+  iconsax: ^0.0.8
+  localstorage: ^4.0.1+2
+  modal_bottom_sheet:
+    git:
+      url: https://github.com/followthemoney1/modal_bottom_sheet.git
+      ref: main
+      path: modal_bottom_sheet
+  velocity_x: ^3.6.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/pokeball.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
